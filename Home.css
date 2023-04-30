@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+body
+{
+    /*background-image: url('image/meteor-shower.gif');*/
+    background-image: url('image/background.jpg'); 
+    background-size: 170%;
+    background-position: fixed;
+}    
+.lo_earth
+{
+    position: fixed;
+    top: 81%;
+    left: 1.5%;
+    font-size: 42px;
+}
+.lo_moon
+{
+    position: fixed;
+    top:54%;
+    left:15.6%;
+    font-size: 35px;
+}
+.lo_mars
+{
+    position: fixed;
+    top:32%;
+    left:30.7%;
+    font-size: 39px;
+}
+.lo_mercury
+{
+    position: fixed;
+    top:50%;
+    left:55.5%;
+    font-size: 47px;
+}
+.lo_venus
+{
+    position: fixed;
+    top:88%;
+    left:37.5%;
+    font-size: 55px;
+}
+.design
+{
+    font-family: "Audiowide", cursive;
+    color: #fff;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    z-index: 3;
+}
+    .earth
+    {
+        position: fixed;
+        left: 5%;
+        top: 55%;
+        width: 220px;
+        height: 220px;
+        border-radius:50%;
+        border:0;
+        background-size: 207%;
+        background-color:transparent;
+        background-position-x: -110px;
+        background-position-y: -22px;
+        background-image:url(image/earth2.png);
+        z-index: 1;
+    }
+    .earth:hover
+    {
+        border:0;
+        background-color:transparent;
+        background-position-x: -103px;
+        background-position-y: -18px;
+        background-size: 200%;
+    }
+
+
+    .mars
+    {
+        position: fixed;
+        top:10%;
+        left:33%;
+        width: 190px;
+        height: 190px;
+        border-radius:50%;
+        background-color:transparent;
+        border:0;
+        background-size: 190%;
+        background-position-x: -85px;
+        background-position-y: -2px;
+        background-image:url(image/mars2.png);
+        z-index: 1;
+    }
+    .mars:hover
+    {
+        border:0;
+        background-color:transparent;
+        background-position-x: -77px;
+        background-position-y: 2px;
+        background-size: 183%;
+    }
+    .moon
+    {
+        position: fixed;
+        top:35%;
+        left:18%;
+        width: 170px;
+        height: 170px;
+        border-radius:50%;
+        background-color:transparent;
+        border:0;
+        background-size: 180%;
+        background-position-x: -72px;
+        background-position-y: 5px;
+        background-image:url(image/moon2.png);
+        z-index: 1;
+    }
+    .moon:hover
+    {
+        border:0;
+        background-color:transparent;
+        background-size: 173%;
+        background-position-x: -65px;
+        background-position-y: 8px;
+    }
+    .mercury
+    {
+        position: fixed;
+        top:15%;
+        left:63%;
+        width: 300px;
+        height: 300px;
+        border-radius:50%;
+        background-color:transparent;
+        border:0;
+        background-size: 200%;
+        background-position-x: -153px;
+        background-position-y: -70px;
+        background-image:url(image/mercury2.png);
+    }
+    .mercury:hover
+    {
+        border:0;
+        background-color:transparent;
+        background-position-x: -140px;
+        background-position-y: -60px;
+        background-size: 192%;
+    }
+    .venus
+    {
+        position: fixed;
+        top:45%;
+        left:40%;
+        width: 350px;
+        height: 350px;
+        border-radius:50%;
+        background-color:transparent;
+        border:0;
+        background-size: 190%;
+        background-position-x: -157px;
+        background-position-y: -4px;
+        background-image:url(image/venus2.png);
+    }
+    .venus:hover
+    {
+        border:0;
+        background-color:transparent;
+        background-size: 185%;
+        background-position-x: -146px;
+        background-position-y: -0px;
+    }
+    

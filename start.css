@@ -1,0 +1,40 @@
+@font-face {
+    font-family:'oxxo';
+    src:url(font/No.019-Sounso-Quality-2.ttf);
+   }
+   body{
+       background-image:url('image/3.jpg');
+       background-repeat:no-repeat;  
+       background-attachment:fixed;
+       background-position:center;   
+  }
+   .anybutton
+   {
+       top:65%;
+       left:33%;
+       width:500px;
+       height:100px;
+       position: absolute;
+       border:0;
+       background-color:#241745;
+       color:#fff;
+       border-radius:10px;
+       cursor:pointer;
+       
+   }
+   input:hover{
+   color:#241745;
+   background-color:#5e71bb;
+   border:2px #241745 solid;
+   }
+   p
+   {
+       color:#ffffff;
+       font-size: 60pt;
+       font-family:'oxxo';
+       font-weight:bold;
+       position: absolute;
+       top: 13%;
+       left:33%;
+       letter-spacing:10px;
+   }
